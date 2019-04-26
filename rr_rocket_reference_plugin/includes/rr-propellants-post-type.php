@@ -35,7 +35,7 @@ function rr_propellants_post_type() {
         'supports'          => array('title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'),
         'has_archive'       => true,
         'rewrite'           => array(
-                                'slug' => 'reference',
+                                'slug' => 'propellant',
                                 'with_front' => false
         ),
         'taxonomies'        => array('category'),
